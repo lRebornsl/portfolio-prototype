@@ -1,0 +1,91 @@
+:root {
+  --roboto: 'Roboto', sans-serif;
+  --creteRound: 'Crete Round', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+  --inter: 'Inter', sans-serif;
+  --blackOlive: #3c3a39;
+  --eerieBlack: #1c1a19;
+  --safetyOrange: #ff6b00;
+  --oldLace: #fff5e1;
+  --maastrichtBlue: #091e42;
+  --coolGrey: #a49a89;
+  --cultured: #f4f5f7;
+  --white: #fff;
+}
+
+/* Global */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* Header */
+.nb {
+  background-color: var(--blackOlive);
+}
+
+.brand {
+  padding: 1.5rem 11.5rem;
+}
+
+.brand a {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--roboto);
+}
+
+.nav-bar {
+  padding-right: 11.5rem;
+}
+
+.nav-bar a {
+  font-size: 1.5rem;
+  font-family: var(--inter);
+  color: var(--white);
+}
+
+/* Main */
+.mb {
+  background-color: var(--eerieBlack);
+  background-image: url(../images/dbg-image.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom -2.5rem right 0;
+}
+
+.mt {
+  padding: 20rem 4.5rem;
+}
+
+.mt h1 {
+  font-family: var(--creteRound);
+  font-weight: 400;
+  font-size: 7.2rem;
+  color: var(--safetyOrange);
+}
+
+.mt h3 {
+  font-family: var(--inter);
+  font-size: 3.2rem;
+  color: var(--white);
+}
+
+.mt p {
+  font-family: var(--inter);
+  font-size: 2rem;
+  color: var(--cultured);
+  line-height: 3.2rem;
+}
+
+.ml {
+  padding-top: 28rem;
+}
+
+.mp {
+  width: 56.6rem;
+  height: 12.3rem;
+}
